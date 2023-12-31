@@ -75,8 +75,12 @@ const HomePage = () => {
   useEffect(() => {
     const fetchCoins = async () => {
       try {
-        const { data } = await axios.get("http://localhost:5100/coins");
-        const response = await axios.get("http://localhost:5100/currency");
+        const { data } = await axios.get(
+          "https://crypto-server-jj5y.onrender.com/coins"
+        );
+        const response = await axios.get(
+          "https://crypto-server-jj5y.onrender.com/currency"
+        );
         let res = response.data.response;
 
         setCurrencies(res);
