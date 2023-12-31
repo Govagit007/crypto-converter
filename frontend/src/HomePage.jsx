@@ -121,7 +121,7 @@ const HomePage = () => {
           {error}
         </div>
       )}
-      <div className="md:w-3/5 w-full md:h-4/5 h-full flex flex-col justify-start gap-10 shadow-2xl shadow-slate-800 bg-neutral-100 p-4 border md:p-10 items-center  ">
+      <div className="md:w-3/5 w-full md:h-4/5 h-full flex flex-col justify-start gap-10 shadow-2xl shadow-slate-800 bg-neutral-100 p-4 border md:p-10 items-center   rounded">
         <h1 className="text-3xl font-bold text-slate-400 ">
           DIGITAL CURRENCY EXCHANGE
         </h1>
